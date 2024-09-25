@@ -5,7 +5,7 @@ Live Wallpaper para Linux Mint 22
 
 - En una configuración de 2 o más monitores solo se verá en un monitor, en algún momento trabajaré sobre ello, de momento, no lo espere.
 
-Ejecute la siguiente linea para instalar
+Copie y pegue la siguiente linea en su terminal y presione "Enter" o "Intro" para instalar:
 
 ```
 cd /tmp && wget https://github.com/chmodmasx/linuxmint-live-wallpaper-action/archive/refs/heads/main.zip && unzip main.zip && cd linuxmint-live-wallpaper-action-main && chmod +x install.sh && ./install.sh

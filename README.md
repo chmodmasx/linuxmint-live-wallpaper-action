@@ -3,7 +3,7 @@ Live Wallpaper para Linux Mint 22
 
 - Probado en Linux Mint 22, aunque debería ser compatible con la 20 y 21 también.
 
-- En una configuración de 2 o más monitores solo se verá en un monitor, en algún momento trabajaré sobre ello, de momento, no lo espere.
+- Solo funciona con 1 monitor, si tienes 2 o más no funcionará, en algún momento trabajaré sobre ello, de momento, no lo espere.
 
 Copie y pegue la siguiente linea en su terminal y presione "Enter" o "Intro" para instalar:
 

@@ -4,7 +4,7 @@
 sudo apt-get install mpv xorg-dev build-essential libx11-dev x11proto-xext-dev libxrender-dev libxext-dev xdotool zip unzip -y
 
 # Instalación
-cd /recursos/xwinwrap
+cd "$(dirname "$0")/recursos/xwinwrap" || exit 1
 make
 sudo make install
 make clean

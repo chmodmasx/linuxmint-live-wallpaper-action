@@ -8,5 +8,5 @@ Live Wallpaper para Linux Mint 22
 Ejecute la siguiente linea para instalar
 
 ```
-mkdir -p /tmp/linuxmint-live-wallpaper-action && cd /tmp/linuxmint-live-wallpaper-action && wget https://github.com/chmodmasx/linuxmint-live-wallpaper-action/archive/refs/heads/main.zip && unzip main.zip && cd linuxmint-live-wallpaper-action-main && chmod +x install.sh && ./install.sh
+cd /tmp && wget https://github.com/chmodmasx/linuxmint-live-wallpaper-action/archive/refs/heads/main.zip && unzip main.zip && cd linuxmint-live-wallpaper-action-main && chmod +x install.sh && ./install.sh
 ```

@@ -8,9 +8,5 @@ En una configuración de 2 o más monitores solo se verá en un monitor, en alg�
 Ejecute la siguiente linea para instalar
 
 ```
-curl -L -o /tmp/linuxmint-live-wallpaper-action.zip https://github.com/chmodmasx/linuxmint-live-wallpaper-action/archive/refs/heads/main.zip && unzip /tmp/linuxmint-live-wallpaper-action.zip -d /tmp && chmod +x /tmp/linuxmint-live-wallpaper-action-main/install.sh && /tmp/linuxmint-live-wallpaper-action-main/install.sh
-```
-
-```
-curl -L -o /tmp/linuxmint-live-wallpaper-action.zip https://github.com/chmodmasx/linuxmint-live-wallpaper-action/archive/refs/heads/main.zip && unzip /tmp/linuxmint-live-wallpaper-action.zip -d /tmp > /dev/null && chmod +x /tmp/linuxmint-live-wallpaper-action-main/install.sh && /tmp/linuxmint-live-wallpaper-action-main/install.sh
+mkdir -p /tmp/linuxmint-live-wallpaper-action && cd /tmp/linuxmint-live-wallpaper-action && wget https://github.com/chmodmasx/linuxmint-live-wallpaper-action/archive/refs/heads/main.zip && unzip main.zip && cd linuxmint-live-wallpaper-action-main && chmod +x install.sh && ./install.sh
 ```

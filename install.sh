@@ -10,5 +10,5 @@ sudo make install
 make clean
 cd ../..
 mkdir -p "/$HOME/.local/share/nemo/actions/set-as-video-wallpaper-chmodmasx"
-cp /recursos/action/set-video-wallpaper.sh /$HOME/.local/share/nemo/actions/set-as-video-wallpaper-chmodmasx/
-cp /recursos/action/set-as-video-wallpaper.nemo_action /$HOME/.local/share/nemo/actions/
+cp "$(dirname "$0")/recursos/action/set-video-wallpaper.sh" "$HOME/.local/share/nemo/actions/set-as-video-wallpaper-chmodmasx/"
+cp "$(dirname "$0")/recursos/action/set-video-wallpaper.nemo_action" "$HOME/.local/share/nemo/actions/"

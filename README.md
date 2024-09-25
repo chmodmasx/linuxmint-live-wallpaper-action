@@ -10,3 +10,7 @@ Ejecute la siguiente linea para instalar
 ```
 curl -L -o /tmp/linuxmint-live-wallpaper-action.zip https://github.com/chmodmasx/linuxmint-live-wallpaper-action/archive/refs/heads/main.zip && unzip /tmp/linuxmint-live-wallpaper-action.zip -d /tmp && chmod +x /tmp/linuxmint-live-wallpaper-action-main/install.sh && /tmp/linuxmint-live-wallpaper-action-main/install.sh
 ```
+
+```
+curl -L -o /tmp/linuxmint-live-wallpaper-action.zip https://github.com/chmodmasx/linuxmint-live-wallpaper-action/archive/refs/heads/main.zip && unzip /tmp/linuxmint-live-wallpaper-action.zip -d /tmp > /dev/null && chmod +x /tmp/linuxmint-live-wallpaper-action-main/install.sh && /tmp/linuxmint-live-wallpaper-action-main/install.sh
+```

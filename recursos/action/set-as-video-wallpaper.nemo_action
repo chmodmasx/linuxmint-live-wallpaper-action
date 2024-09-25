@@ -1,7 +1,7 @@
 [Nemo Action]
 Name=Set as Video Wallpaper...
 Comment=Set the selected video as your Cinnamon desktop wallpaper
-Exec=bash -c "$HOME/.local/share/nemo/actions/set-as-video-wallpaper-chmodmasx/set-video-wallpaper.sh %F"
+Exec=bash -c "$HOME/.local/share/nemo/actions/set-video-wallpaper-chmodmasx/set-video-wallpaper.sh %F"
 Mimetypes=video/*;
 Conditions=exec mpv --version;
 Selection=s

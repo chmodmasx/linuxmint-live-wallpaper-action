@@ -12,4 +12,4 @@ cd ../..
 mkdir -p "/$HOME/.local/share/nemo/actions/set-video-wallpaper-chmodmasx"
 cp "$(dirname "$0")/recursos/action/set-video-wallpaper.sh" "$HOME/.local/share/nemo/actions/set-video-wallpaper-chmodmasx/"
 cp "$(dirname "$0")/recursos/action/set-as-video-wallpaper.nemo_action" "$HOME/.local/share/nemo/actions/"
-chmod +x $HOME/.local/share/nemo/actions/set-video-wallpaper-chmodmasx/set-video-wallpaper.sh
+chmod +x "$HOME/.local/share/nemo/actions/set-video-wallpaper-chmodmasx/set-video-wallpaper.sh"

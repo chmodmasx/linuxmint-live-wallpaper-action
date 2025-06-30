@@ -1,7 +1,12 @@
 # linuxmint-live-wallpaper-action
 Live Wallpaper para Linux Mint 22
 
-**SI ESTÁ USANDO LMDE DEBE ACTIVAR LOS BACKPORTS ANTES DE INSTALAR ESTO**
+**SI ESTÁ USANDO LMDE DEBE INSTALAR libdrm-dev DESDE BACKPORTS**
+
+```
+sudo apt install -t bookworm-backports libdrm-dev
+```
+Si usa Linux Mint 22.x omita esto y continúe con el siguiente paso
 
 **Que hace este script?**
 

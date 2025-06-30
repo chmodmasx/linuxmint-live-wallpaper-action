@@ -1,6 +1,7 @@
 # linuxmint-live-wallpaper-action
 Live Wallpaper para Linux Mint 22
-
+**SI ESTÁ USANDO LMDE DEBE ACTIVAR LOS BACKPORTS ANTES DE INSTALAR ESTO
+**
 **Que hace este script?**
 
 - Instala XwinWrap y mpv para la función de colocar un video como fondo de escritorio.
